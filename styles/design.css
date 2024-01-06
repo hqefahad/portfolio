@@ -230,7 +230,26 @@ main section {
 
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     margin-top: 100px;
     padding: 130px 200px;
+}
+
+.footerColumn{
+    width: 50%;
+}
+
+.contact input[type="text"],input[type="email"],textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+}
+
+.socialLinks a{
+    margin-right: 25px;
 }
