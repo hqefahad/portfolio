@@ -23,6 +23,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .navTitle {
@@ -46,4 +47,57 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header Related Style */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    padding 30px 20px 40px 150px;
+    margin: 0px 3% 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner button{
+    margin-right: 25px;
+}
+
+.bannerContent{
+    max-width: 500px;
+    margin: 0px 150px;
+    
+}
+
+.bannerGreeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
+}
+
+.bannerHeading {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.bannerDescription{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 585px;
+    height: 60px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.profilePicture {
+    width: 500px;
 }
