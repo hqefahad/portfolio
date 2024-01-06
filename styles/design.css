@@ -65,14 +65,14 @@ nav a {
     justify-content: space-between;
 }
 
-.banner button{
+.banner button {
     margin-right: 25px;
 }
 
-.bannerContent{
+.bannerContent {
     max-width: 500px;
     margin: 0px 150px;
-    
+
 }
 
 .bannerGreeting {
@@ -88,7 +88,7 @@ nav a {
     font-weight: 700;
 }
 
-.bannerDescription{
+.bannerDescription {
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 18px;
@@ -101,3 +101,52 @@ nav a {
 .profilePicture {
     width: 500px;
 }
+
+/* Main Section Styles */
+main{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 130px;
+    background-color: #fff8f3;
+    margin: 130px 20px;
+}
+
+.sectionTitle {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.sectionDescription {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.personalDetails {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+}
+
+.personalDetails div {
+    margin: 50px 0px 30px;
+    text-align: center;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.personalDetails span {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}   
